@@ -5,7 +5,7 @@ import javax.swing.*;
 
 import java.util.*;
 
-public class DominoDisplay extends JDialog {
+public class DominoDisplay extends JDialog implements ActionListener{
 
     // JDialog requires this
     private static final long serialVersionUID = 1L;
@@ -14,6 +14,7 @@ public class DominoDisplay extends JDialog {
     JPanel panelMain;
     JPanel[] panelTiles;
     int _numTiles;
+    JButton closeButton;
 
     public DominoDisplay(int numTiles) {
 	int i = 0;
@@ -36,6 +37,13 @@ public class DominoDisplay extends JDialog {
 	    panelTiles[i].setBorder(BorderFactory.createLineBorder(Color.BLACK));
 	    panelMain.add(panelTiles[i]);
 	}
+	closeButton = new JButton("Close");
+	closeButton.addActionListener(this);
+	closeButton.setVisible(true);
+	closeButton.setLocation(30*(numTiles+1),30);
+	closeButton.setSize(75,30);
+
+	panelMain.add(closeButton);
 	panelMain.setOpaque(true);
 	panelMain.revalidate();
 	panelMain.repaint();
@@ -65,5 +73,9 @@ public class DominoDisplay extends JDialog {
 	// run is complete
 	//	frameMain.dispose();
 	frameMain.setTitle("DONE! Occupation rate: " + occupyPct);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+	frameMain.dispose();
     }
 }
