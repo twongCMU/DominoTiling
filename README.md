@@ -28,9 +28,26 @@ in the src directory, simply do:
 > java Domino
 </pre>
 
-Benchmarks:
+On Windows, double clicking the "run program" shortcut will compile and launch the program (for users not familiar with the command line or Java)
+
+This program has many operating modes. 
+
+For large arrays, 1000+ by default, there are no graphics options since there would be too much to display. This option has two main modes:
+   * Main Experiment (domino start size == domino end size)
+      * Run a number of trials and report the resulting occupation percentage. Progress information is displayed which is useful for large arrays that might take a long time to run
+   * Incremental Experiment (domino start size  < domino end size)
+      * Do the Main Experiment, but automatically repeat it for each domino size in the provided range. No per-experiment progress information is displayed
+      * 
+For small arrays, <1000 by default, there are graphics options. Note that when graphics are used (modes 1-3), only a single trial of the Main Experiment is offered. This is designed to illustrate to an audience what is happening rather than provide experimental results
+   * 0 (none): This is the same as the large arrays option above 
+   * 1 (text): In the terminal, each line will represent one random tile placement of the Main Experiment. A [] represents a tile and a . represents an unoccupied square
+   * 2 (manual continue): Display graphics and only progress when the user hits Enter. Be sure to resize the graphics window to show all of the tiles, and then be sure to return your mouse focus to the terminal window before hitting Enter on the keyboard
+   * 3 (auto continue): Similar to manual continue but tiles are placed automatically every one second. Again, be sure to resize the graphics window to show all of the tiles.
+
+Benchmarks
+----------
 <pre>
-Intel Core i7-4770K CPU
+Intel Core i7-4770K CPU (4 physical cores, 8 threads)
 32GB Ram (although RAM is not really important for this)
 
 For 1 million trials, domino size 2
