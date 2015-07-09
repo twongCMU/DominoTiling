@@ -14,9 +14,9 @@ Maxwell Christopher Chomas*, Washington & Jefferson College
 Roman Wong, Washington & Jefferson College
 Terrence Wong, Carnegie Mellon University
 (1106-VX-1235)
-
-[abstract](http://jointmathematicsmeetings.org/amsmtgs/2168_abstracts/1106-vx-1235.pdf)
 </pre>
+[abstract](http://jointmathematicsmeetings.org/amsmtgs/2168_abstracts/1106-vx-1235.pdf)
+
 
 Running
 -------
