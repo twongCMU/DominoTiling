@@ -1,11 +1,11 @@
 DominoTiling
 ============
 
-Randomly place k-tile dominos into an N-length array until no more tiles can be placed and determine the occupation percentage
+Randomly place k-wide tiles into an n-length array until no more tiles can be placed and determine the ratio of covered array squares to the total number of squares. 
 
 I wrote this code for fun on my own time. I was not paid for this nor was it related to my regular employment. The algorithm was simple to implement and it was fun to optimize the code to maximize the number of trials that could be run. I wrote this code in Java because I hadn't used it since college 10 years prior. It was a good excuse to refresh my memory of the language.
 
-I wrote this code for my dad, a math professor, and his student. Their work was to determine a function that would return the expected percentage of tiles covered by randomly placing k-sized tiles on an N-length array until no more tiles could be placed. This code can graphically display one trial of the tile placing to illustrate the premise of their work or run millions of trials to show experimentally that the occupation percentage of a large number of trials converges to the values predicted by their work.
+I wrote this code for my dad, a math professor, and his student. Their work was to determine a mathematical function that would return the expected percentage of tiles covered by randomly placing k-sized tiles on an n-length array until no more tiles could be placed. This code can graphically display one trial of the tile placing to illustrate the premise of their work or run millions of trials to show experimentally that the occupation percentage of a large number of trials converges to the values predicted by their work.
 
 This work was presented at the [2015 Joint Mathematics Meetings conference](http://jointmathematicsmeetings.org/meetings/national/jmm2015/2168_progfull.html) on January 13, 2015 in San Antonio, Texas ([abstract](http://jointmathematicsmeetings.org/amsmtgs/2168_abstracts/1106-vx-1235.pdf)):
 <pre>
