@@ -37,7 +37,7 @@ For large arrays, 1000+ by default, there are no graphics options since there wo
       * Run a number of trials and report the resulting occupation percentage. Progress information is displayed which is useful for large arrays that might take a long time to run
    * Incremental Experiment (domino start size  < domino end size)
       * Do the Main Experiment, but automatically repeat it for each domino size in the provided range. No per-experiment progress information is displayed
-      * 
+
 For small arrays, <1000 by default, there are graphics options. Note that when graphics are used (modes 1-3), only a single trial of the Main Experiment is offered. This is designed to illustrate to an audience what is happening rather than provide experimental results
    * 0 (none): This is the same as the large arrays option above 
    * 1 (text): In the terminal, each line will represent one random tile placement of the Main Experiment. A [] represents a tile and a . represents an unoccupied square
