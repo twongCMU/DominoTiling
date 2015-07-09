@@ -5,9 +5,9 @@ Randomly place k-tile dominos into an N-length array until no more tiles can be 
 
 I wrote this code for fun on my own time. I was not paid for this nor was it related to my regular employment.
 
-I wrote this code to illustrate the work that my dad, a math professor, and his student were doing. Their work was to determine a function that would return the expected percentage of tiles covered by randomly placing k-sized dominos on an N-length array until no more tiles could be placed.
+I wrote this code for my dad, a math professor, and his student. Their work was to determine a function that would return the expected percentage of tiles covered by randomly placing k-sized tiles on an N-length array until no more tiles could be placed. This code can graphically display one trial of the tile placing to illustrate the premise of their work or run millions of trials to show experimentally that the occupation percentage of a large number of trials converges to the values predicted by their work.
 
-This work was presented at the 2015 Joint Mathematics Meetings conference on January 13, 2015:
+This work was presented at the 2015 Joint Mathematics Meetings conference on January 13, 2015 in San Antonio, Texas:
 <pre>
 http://jointmathematicsmeetings.org/meetings/national/jmm2015/2168_progfull.html
 
@@ -48,9 +48,8 @@ Benchmarks
 ----------
 <pre>
 Intel Core i7-4770K CPU (4 physical cores, 8 threads)
-32GB Ram (although RAM is not really important for this)
 
-For 1 million trials, domino size 2
+1 million trials, domino size 2
 
 Array Size | time
 100 | 8 sec
