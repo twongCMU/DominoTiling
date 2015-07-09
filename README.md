@@ -7,17 +7,15 @@ I wrote this code for fun on my own time. I was not paid for this nor was it rel
 
 I wrote this code for my dad, a math professor, and his student. Their work was to determine a function that would return the expected percentage of tiles covered by randomly placing k-sized tiles on an N-length array until no more tiles could be placed. This code can graphically display one trial of the tile placing to illustrate the premise of their work or run millions of trials to show experimentally that the occupation percentage of a large number of trials converges to the values predicted by their work.
 
-This work was presented at the 2015 Joint Mathematics Meetings conference on January 13, 2015 in San Antonio, Texas:
+This work was presented at the [2015 Joint Mathematics Meetings conference]http://jointmathematicsmeetings.org/meetings/national/jmm2015/2168_progfull.html on January 13, 2015 in San Antonio, Texas:
 <pre>
-http://jointmathematicsmeetings.org/meetings/national/jmm2015/2168_progfull.html
-
 Expected Portion filled by k-Tiles.
 Maxwell Christopher Chomas*, Washington & Jefferson College
 Roman Wong, Washington & Jefferson College
 Terrence Wong, Carnegie Mellon University
 (1106-VX-1235)
 
-http://jointmathematicsmeetings.org/amsmtgs/2168_abstracts/1106-vx-1235.pdf
+[abstract]http://jointmathematicsmeetings.org/amsmtgs/2168_abstracts/1106-vx-1235.pdf
 </pre>
 
 Running
