@@ -27,6 +27,7 @@ public class Domino {
     public static void main(String[] args) {
 	while (true) {
 	    int i;
+	    THREADS = 1; // the graphics modes don't set this so reset it here in case it was modified elsewhere
 	    Scanner scannerInput = new Scanner(System.in);
 	    System.out.println("Array size (<1000 for graphics options):");
 	    ARRAY_SIZE = scannerInput.nextInt();
