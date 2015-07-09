@@ -18,8 +18,10 @@ Terrence Wong, Carnegie Mellon University
 (1106-VX-1235)
 
 http://jointmathematicsmeetings.org/amsmtgs/2168_abstracts/1106-vx-1235.pdf
+</pre>
 
 Benchmarks:
+<pre>
 Intel Core i7-4770K CPU
 32GB Ram (although RAM is not really important for this)
 
