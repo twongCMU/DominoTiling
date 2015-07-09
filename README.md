@@ -20,6 +20,14 @@ Terrence Wong, Carnegie Mellon University
 http://jointmathematicsmeetings.org/amsmtgs/2168_abstracts/1106-vx-1235.pdf
 </pre>
 
+Running
+-------
+in the src directory, simply do:
+<pre>
+> javac Domino.java
+> java Domino
+</pre>
+
 Benchmarks:
 <pre>
 Intel Core i7-4770K CPU
