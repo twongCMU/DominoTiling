@@ -8,7 +8,9 @@ I wrote this code for fun on my own time. I was not paid for this nor was it rel
 I wrote this code to illustrate the work that my dad, a math professor, and his student were doing. Their work was to determine a function that would return the expected percentage of tiles covered by randomly placing k-sized dominos on an N-length array until no more tiles could be placed.
 
 This work was presented at the 2015 Joint Mathematics Meetings conference on January 13, 2015:
+<pre>
 http://jointmathematicsmeetings.org/meetings/national/jmm2015/2168_progfull.html
+
 Expected Portion filled by k-Tiles.
 Maxwell Christopher Chomas*, Washington & Jefferson College
 Roman Wong, Washington & Jefferson College
@@ -28,5 +30,5 @@ Array Size | time
 1,000 | 1:13
 10,000 | 11:37
 100,000 | 3:09:42
-
+</pre>
 Any larger domino size will cause the time to drop since it requires placing fewer tiles
