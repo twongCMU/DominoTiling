@@ -3,7 +3,7 @@ DominoTiling
 
 Randomly place k-tile dominos into an N-length array until no more tiles can be placed and determine the occupation percentage
 
-I wrote this code for fun on my own time. I was not paid for this nor was it related to my regular employment.
+I wrote this code for fun on my own time. I was not paid for this nor was it related to my regular employment. The algorithm was simple to implement and it was fun to optimize the code to maximize the number of trials that could be run.
 
 I wrote this code for my dad, a math professor, and his student. Their work was to determine a function that would return the expected percentage of tiles covered by randomly placing k-sized tiles on an N-length array until no more tiles could be placed. This code can graphically display one trial of the tile placing to illustrate the premise of their work or run millions of trials to show experimentally that the occupation percentage of a large number of trials converges to the values predicted by their work.
 
