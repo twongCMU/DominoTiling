@@ -12,16 +12,23 @@ public class Domino {
     static long TIMES = 1;
     static int THREADS = 1;
 
+    /* Track which array tiles are occupied or available */
     static final byte TILE_EMPTY = 0;
     static final byte TILE_START = 1;
     static final byte TILE_MID = 2;
     static final byte TILE_END = 3;	
 
+    /* See README.md for more on the graphics modes */
     static final byte GRAPHIC_MODE_NONE = 0;
     static final byte GRAPHIC_MODE_TEXT = 1;
     static final byte GRAPHIC_MODE_GUI_MANUAL = 2;
     static final byte GRAPHIC_MODE_GUI_AUTO = 3;
 
+    /* 
+     * Any array size >= to this will not offer graphics
+     * options. Realistically, a size of 40 is about the useful limit
+     * for graphics
+     */
     static final int ARRAY_SIZE_LIMIT_FOR_GRAPHICS = 1000;
 
     public static void main(String[] args) {
@@ -63,6 +70,10 @@ public class Domino {
 		interval++;
 	    }
 
+	    /*
+	     * Each thread will do approximately TIMES/THREADS iterations.
+	     * For graphics modes we'll only run one thread
+	     */
 	    DominoThread[] myThreads = new DominoThread[THREADS];
 	    for (int kloop = TILE_SIZE_START; kloop <= TILE_SIZE_END; kloop++) {
 		TILE_SIZE = kloop;
@@ -76,7 +87,7 @@ public class Domino {
 		for (i = 0; i < THREADS; i++) {
 		    avg += myThreads[i].getResult();
 		}
-		avg /= (THREADS * 1.0);
+		avg /= (TIMES * 1.0);
 		allRes[kloop] = avg;
 		System.out.println("Tile size: " + kloop + " : Occupation " + avg);
 	    }
