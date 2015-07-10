@@ -1,7 +1,7 @@
 DominoTiling
 ============
 
-Randomly place k-wide tiles into an n-length array. Eventually until no more tiles can be placed and there will be some number (possibly zero) of uncovered squares in the array into which tiles cannot fit. Determine the ratio of covered array squares to the total number of squares. 
+Randomly place k-wide tiles into an n-length array. Eventually no more tiles can be placed and there will be some number (possibly zero) of uncovered squares in the array into which tiles cannot fit. Determine the ratio of covered array squares to the total number of squares. 
 
 I wrote this code for fun on my own time. I was not paid for this nor was it related to my regular employment. The algorithm was simple to implement and it was fun to optimize the code to maximize the number of trials that could be run. I wrote this code in Java because I hadn't used it since college 10 years prior. It was a good excuse to refresh my memory of the language.
 
