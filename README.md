@@ -52,4 +52,4 @@ Array Size | time
 10,000 | 11:37
 100,000 | 3:09:42
 </pre>
-Any larger domino size will cause the time to drop since it requires placing fewer tiles
+
