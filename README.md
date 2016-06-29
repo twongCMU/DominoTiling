@@ -45,7 +45,7 @@ Python (2.x):
 </pre>
 * The Python version has fewer features than the Java version.
      
-Benchmarks
+Benchmarks (Java version)
 ----------
 <pre>
 Intel Core i7-4770K CPU (4 physical cores, 8 threads)
