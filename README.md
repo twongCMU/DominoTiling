@@ -3,7 +3,9 @@ DominoTiling
 
 Randomly place k-wide tiles into an n-length array. Eventually no more tiles can be placed and there will be some number (possibly zero) of uncovered squares in the array into which tiles cannot fit. Determine the ratio of covered array squares to the total number of squares. 
 
-I wrote this code for fun on my own time. I was not paid for this nor was it related to my regular employment. The algorithm was simple to implement and it was fun to optimize the code to maximize the number of trials that could be run. I wrote this code in Java because I hadn't used it since college 10 years prior. It was a good excuse to refresh my memory of the language.
+I originally wrote this code in Java because I hadn't used it since college 10 years prior. It was a good excuse to refresh my memory of the language. The Java version runs multithreaded and can display the results graphically. Some of the features grew organically as we were writing the paper so it is not as well written as it could be. 
+
+I also implemented the algorithm in Python as an exercise. It can calculate the coverage percentage but does not dispaly results or run multithreaded.
 
 I wrote this code for my dad, a math professor, and his student. Their work was to determine a mathematical function that would return the expected percentage of tiles covered. This code can graphically display one trial of the tile placing to illustrate the premise of their work or run millions of trials to show experimentally that the results of a large number of trials converge to the values predicted by their work.
 
@@ -23,9 +25,6 @@ in the src directory, simply do:
 > java Domino
 </pre>
 
-On Windows, double clicking the "run program" shortcut will compile and launch the program (for users not familiar with the command line or Java)
-
-This program has many operating modes. 
 
 For large arrays, 1000+ by default, there are no graphics options since there would be too much to display. This option has two main modes:
    * Main Experiment (domino start size == domino end size)
@@ -39,6 +38,11 @@ For small arrays, <1000 by default, there are graphics options. Note that when g
    * 2 (manual continue): Display graphics and only progress when the user hits Enter. Be sure to resize the graphics window to show all of the tiles, and then be sure to return your mouse focus to the terminal window before hitting Enter on the keyboard
    * 3 (auto continue): Similar to manual continue but tiles are placed automatically every one second. Again, be sure to resize the graphics window to show all of the tiles.
 
+
+Python (2.x):
+     * > python domino.py
+     * The Python version has fewer features than the Java version.
+     
 Benchmarks
 ----------
 <pre>
