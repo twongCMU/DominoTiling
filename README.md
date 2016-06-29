@@ -1,13 +1,13 @@
 DominoTiling
 ============
 
-Randomly place k-wide tiles into an n-length array. Eventually no more tiles can be placed and there will be some number (possibly zero) of uncovered squares in the array into which tiles cannot fit. Determine the ratio of covered array squares to the total number of squares. 
+Randomly place k-length tiles (regular domino = 2) into an n-length array. Eventually no more tiles can be placed and there will be some number (possibly zero) of uncovered squares in the array into which tiles cannot fit. Determine the ratio of covered array squares to the total number of squares. 
 
-I originally wrote this code in Java because I hadn't used it since college 10 years prior. It was a good excuse to refresh my memory of the language. The Java version runs multithreaded and can display the results graphically. Some of the features grew organically as we were writing the paper so it is not as well written as it could be. 
+I originally wrote this code in Java as a refresher of the language. The Java version runs multithreaded and can display the results graphically. Some of the features grew organically as we were writing the paper so it is not as well written as it could be. 
 
-I also implemented the algorithm in Python as an exercise. It can calculate the coverage percentage but does not dispaly results or run multithreaded.
+I also implemented the algorithm in Python 2.7 as an exercise. It can calculate the coverage percentage but does not dispaly results or run multithreaded.
 
-I wrote this code for my dad, a math professor, and his student. Their work was to determine a mathematical function that would return the expected percentage of tiles covered. This code can graphically display one trial of the tile placing to illustrate the premise of their work or run millions of trials to show experimentally that the results of a large number of trials converge to the values predicted by their work.
+I wrote this code for my dad, who is a math professor, and his student. Their work was to determine a mathematical function that would return the expected percentage of tiles covered. This code can graphically display one trial of the tile placing to illustrate the premise of their work or run millions of trials to show experimentally that the results of a large number of trials converge to the values predicted by their work.
 
 This work was presented at the [2015 Joint Mathematics Meetings conference](http://jointmathematicsmeetings.org/meetings/national/jmm2015/2168_progfull.html) on January 13, 2015 in San Antonio, Texas ([abstract](http://jointmathematicsmeetings.org/amsmtgs/2168_abstracts/1106-vx-1235.pdf)):
 <pre>
