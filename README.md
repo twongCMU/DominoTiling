@@ -43,7 +43,7 @@ Python (2.x):
 <pre>
 > python domino.py
 </pre>
-    * The Python version has fewer features than the Java version.
+* The Python version has fewer features than the Java version.
      
 Benchmarks
 ----------
