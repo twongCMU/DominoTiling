@@ -40,8 +40,8 @@ For small arrays, <1000 by default, there are graphics options. Note that when g
 
 
 Python (2.x):
-     * > python domino.py
-     * The Python version has fewer features than the Java version.
+    * > python domino.py
+    * The Python version has fewer features than the Java version.
      
 Benchmarks
 ----------
