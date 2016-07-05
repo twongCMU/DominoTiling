@@ -3,7 +3,7 @@ DominoTiling
 
 Randomly place k-length tiles (regular domino = 2) into an n-length array. Eventually no more tiles can be placed and there will be some number (possibly zero) of uncovered squares in the array into which tiles cannot fit. Determine the ratio of covered array squares to the total number of squares. 
 
-I originally wrote this code in Java as a refresher of the language. The Java version runs multithreaded and can display the results graphically. Some of the features grew organically as we were writing the paper so it is not as well written as it could be. 
+I originally wrote this code in Java as a refresher of the language. The Java version runs multithreaded and can display the results graphically. Some of the features grew organically as we were writing the paper so the code is not as well written as it could be. 
 
 I also implemented the algorithm in Python 2.7 as an exercise. It can calculate the coverage percentage but does not dispaly results or run multithreaded.
 
